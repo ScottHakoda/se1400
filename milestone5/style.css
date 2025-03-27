@@ -222,11 +222,25 @@ footer {
     /* #background {
         background-image: none;
     } */
+
+    header {
+        padding-left: 1rem;
+    }
+
+    nav li {
+        padding: 1rem 1rem 1rem 1rem; 
+    }
+
     #bio {
         display: grid;
         grid-auto-rows: minmax(0px, auto);
         grid-template-columns: auto auto;
     }
+
+    #bio-grid p {
+        padding-right: 0.5rem;
+    }  
+
     #footer-grid {
         display: grid;
         grid-template-columns: auto auto;
@@ -241,4 +255,5 @@ footer {
         grid-auto-rows: minmax(0px, auto);
         grid-template-columns: repeat(6, minmax(0, 128px))
     }
+
 }
