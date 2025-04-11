@@ -527,9 +527,7 @@ footer {
         grid-template-columns: repeat(3, 1fr);
         grid-template-rows: auto;
     }
-
-    form {}
-
+    
     input, textarea {
         width: 95%;
     }
