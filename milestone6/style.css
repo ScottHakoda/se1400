@@ -49,10 +49,14 @@ body {
         padding: 1rem 0rem 1rem 1rem; 
     }
 
+    nav li a:hover {
+        color:#A1CF60;
+    }
+
     nav li a {
         font-size: 1.25rem;
         font-weight:bold;
-        color:#00586F
+        color:#00586F;
     }
 
 main {
@@ -145,10 +149,17 @@ main {
 
         .listing-item h3{
             text-align: center;
-            color:#FFFFFF;
             text-decoration: underline;
             /* background-color: rgba(161, 207, 96, 0.5);
             padding: 1rem 0rem 1rem 0rem; */
+        }
+
+        .listing-item a {
+            color: #FFFFFF;
+        }
+
+        .listing-item a:hover {
+            color:#A1CF60;
         }
 
 #info {
@@ -291,7 +302,7 @@ main {
 
 .gallery {
     display: grid;
-    grid-template-columns: 2fr 1fr;
+    grid-template-columns: 1fr 0.5fr;
     gap: 20px;
     max-width: 100%;
     margin: 0 auto;
