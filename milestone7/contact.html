@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Contact</title>
+        <link rel="stylesheet" href="./style.css" >
+    </head>
+    <body>
+        <div id="wrapper">
+            <div id="background"></div>
+            <div id="full-navbar"></div>
+            <div id="navbar">
+                <header>
+                    <img src="images/foundit-blue.png" alt="foundit logo" width=200>
+                </header>
+                <nav>
+                    <ul>
+                        <li><a href="index.html">Home</a> </li>
+                        <li><a href="about.html">About</a> </li>
+                        <li><a href="listings.html">Listings</a> </li>
+                        <li><a href="contact.html">Contact</a> </li>
+                    </ul>
+                </nav>
+            </div>
+            <main>
+                <div id="contact">
+                    <div id="contact-info">
+                        <h1>Contact details</h1>
+                        <h2>Donn Hakoda</h2>
+                        <div class="contact-grid">
+                            <img src="images/phone.png" alt="pheone icon" width="50">
+                            <div class="contact-subgrid">
+                                <h3>Phone</h3>
+                                <h3>(808) 960-1828</h3>
+                            </div>
+                        </div>
+                        <div class="contact-grid">
+                            <img src="images/mail.png" alt="email icon" width=50>
+                            <div class="contact-subgrid">
+                                <h3>Email</h3>
+                                <h3><a href="mailto:donn@paradiselistings.com">donn@paradiselistings.com</a></h3>
+                            </div>
+                        </div>
+                        <div class="contact-grid">
+                            <img src="images/map.png" alt="map icon" width="50">
+                            <div class="contact-subgrid">
+                                <h3>Address</h3>
+                            <h3>108 Railroad Ave, Hilo, HI 96720</h3>
+                            </div>
+                        </div>                        
+                    </div>  
+                    <div id="contact-form">
+                        <h1>Submit a message</h1>
+                        <form action="https://kearl.net/se1400/mail.php" method="post">
+
+                            <label for="fname">* First Name: </label>
+                            <input type="text" name="myFName" id="fname" required>
+            
+                            <label for="lname">* Last Name: </label>
+                            <input type="text" name="myLName" id="lname" required>
+            
+                            <label for="email">* E-mail: </label>
+                            <input type="email" name="myEmail" id="email" required>
+            
+                            <label for="phone">Phone: </label>
+                            <input type="tel" name="myPhone" id="phone">
+            
+                            <label for="comments">* Comments: </label>
+                            <textarea name="myComments" id="comments" cols="20" rows="2" required></textarea>
+            
+                            <input type="submit" name="mySubmit" id="mySubmit">
+            
+                        </form>
+                    </div>
+                </div>
+            </main>
+            <footer>
+    
+            </footer>
+        </div>
+    </body>
+</html>
